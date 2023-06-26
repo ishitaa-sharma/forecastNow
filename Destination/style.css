@@ -1,0 +1,127 @@
+.box1,.box2
+{
+    border: 1px solid white;
+    box-shadow:0 0 4px white;
+    border-radius: 10px;
+    margin:0px;
+    padding:40px;
+}
+.main-box
+{
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+}
+html
+{
+    padding:40px;
+    background-image: linear-gradient( rgba(193, 201, 193, 0.588),rgba(216, 213, 227, 0.719));
+   
+}
+#box13
+{
+    margin-left:160px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, 0.375);
+    border:1px solid black;
+    border-radius: 5px;
+    padding:8px;
+} 
+.box1
+{
+    background-image: url("alt.jpeg");
+    background-size: cover;
+}
+.box2
+{
+    background-color: rgba(255, 255, 255, 0.844);
+} 
+.main-para
+{
+    text-align: center;
+}
+#text9
+{
+    text-decoration:none;
+    font-family: 'Libre Baskerville', serif;
+    text-shadow: 1px 1px 2px grey;
+}
+.search1
+{
+    margin-left: 40px;
+    padding:8px;
+    background-color: rgba(255, 255, 255, 0.301);
+    border:1px solid white;
+    border-radius:5px;
+    box-shadow: 0 0 2px white;
+}
+.button1
+{
+    padding:8px;
+    background-color: rgba(181, 169, 169, 0.762);
+    border:1px solid white;
+    border-radius:5px;
+}
+body,#search2
+{
+    color:white;
+    font-weight:400 ;
+}
+#box12
+{
+    font-family: 'Fasthand', cursive;
+    font-size: larger;
+}
+.sub-sec a
+{
+    text-decoration: none;
+    color:black;
+    font-family: 'Libre Baskerville', serif;
+    font-size:14px;
+    word-spacing: 3px;   
+}
+.status
+{
+    color:black;
+    font-weight: bolder;
+    font-size: 40px;
+}
+#time1
+{
+    color:black;
+    font-family: 'Libre Baskerville', serif;
+}
+.temp-box
+{
+    padding:10px;
+    display: flex;
+    flex-direction: row;
+    color:black;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: white;
+    box-shadow: 0 0 5px grey;
+}
+
+#temp,#temp1
+{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+#date
+{
+    font-family: 'Libre Baskerville', serif;
+}
+.temp-info
+{
+    color:gray;
+    font-family: 'Libre Baskerville', serif;
+    font-size:10px;
+}
+
+.sub-nav a:hover
+{
+    color:rgb(28, 200, 235);
+    text-decoration: underline;
+}
+

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherNow</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Caprasimo&family=Fasthand&family=Roboto:wght@100&family=Rubik+Iso&family=Sawarabi+Mincho&family=Tilt+Prism&family=Wix+Madefor+Display:wght@400;500&family=Yatra+One&family=Yeseva+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Caprasimo&family=Fasthand&family=Libre+Baskerville:wght@700&family=Roboto:wght@100&family=Rubik+Iso&family=Sawarabi+Mincho&family=Tilt+Prism&family=Wix+Madefor+Display:wght@400;500&family=Yatra+One&family=Yeseva+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Caprasimo&family=Fasthand&family=Libre+Baskerville:wght@700&family=Oswald:wght@700&family=Roboto:wght@100&family=Rubik+Iso&family=Sawarabi+Mincho&family=Tilt+Prism&family=Wix+Madefor+Display:wght@400;500&family=Yatra+One&family=Yeseva+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet"href="style.css">
+  <link rel="icon"href="hello-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bebas+Neue&family=Caprasimo&family=Fasthand&family=Libre+Baskerville:wght@700&family=Oswald:wght@700&family=Roboto:wght@100&family=Rubik+Iso&family=Satisfy&family=Sawarabi+Mincho&family=Tilt+Prism&family=Wix+Madefor+Display:wght@400;500&family=Yatra+One&family=Yeseva+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="main-box">
+    <div class="box1">
+      <span id="box12">forecast</span> <span id="box13">New Delhi</span>
+      <br><br><br><br><br><br><br><br>
+      <p class="main-para">
+        <span id="text9">- The only weather forecast you need -</span> <br><br>
+        
+          <input class="search1" id="search123"type="search" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Enter your location" aria-label="Search">
+          <button class="button1"id="newbtn" type="submit"><span id="search2">Search</span></button>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- The form
+<form class="example">
+  <input type="text" class="search1" id="search123" placeholder="Search.." name="search">
+  <button class="button1" id="newbtn" type="submit"><i class="fa fa-search"></i></button>
+</form> -->
+        
+        <br><br><br><br><br><br><br>
+      </p>
+    </div>
+    <div class="box2">
+      <nav class="sub-sec">
+        <span class="sub-nav">  <a href="#">Weather </a> <a href="#">Alerts </a ><a href="#">Maps </a> 
+          <a href="#">Satellite </a><a href="#">News</a> </span>
+      </nav><br>
+      <div class="status">Today&nbsp;&nbsp;&nbsp;&nbsp;<span id="time1"></span></div><br>
+
+
+      <div class="temp-box">
+        <div class="c1"><span id="temp"></span><span id="temp1">&deg;C &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="weather1.png"width=90px></span><br><br><span id="date"></span> <br><br><br>
+          <div class="temp-info">
+            Feels like&nbsp;&nbsp;<span id="feels_like"></span>&deg;C<br><br>
+            Humidity&nbsp;&nbsp;<span id="humidity"> </span> %<br><br>
+            Max Temp&nbsp;&nbsp;<span id="max_temp"></span>&deg;C<br><br>
+            Min Temp&nbsp;&nbsp;<span id="min_temp"></span>&deg;C<br><br>
+            Sunrise&nbsp;&nbsp;<span id="sunrise"> </span> <br><br>
+            Sunset&nbsp;&nbsp;<span id="sunset"></span> <br><br>
+            Cloud PCT&nbsp;&nbsp;<span id="cloud_pct"> </span> <br><br>
+            Wind Speed&nbsp;&nbsp;<span id="wind_speed"></span> km/h <br><br>
+            Wind degrees&nbsp;&nbsp;<span id="wind_deg"> </span> 
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
